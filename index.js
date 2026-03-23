@@ -34,5 +34,5 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
 console.log(calculateDiscountedPrice(100, 0.2));
 console.log(calculateDiscountedPrice(58, 0.2));
 
-// // This is required for the test to function properly  
-// module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
+// This is required for the test to function properly  
+module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
