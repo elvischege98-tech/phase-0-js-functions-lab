@@ -3,7 +3,7 @@ function calculateTax(amount) {
     return amount * taxRate;
 }
 
-console.log(calculateTax(100));
+console.log(calculateTax(0));
 
 function convertToUpperCase(str) {
     return str.toUpperCase();
@@ -24,7 +24,6 @@ function isPalindrome(str) {
 console.log(isPalindrome("madam"));
 
 
-const discountPercentage = 0.2; 
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
 
     const discountAmount = (originalPrice * discountPercentage);
@@ -32,7 +31,7 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
 }
 
 console.log(calculateDiscountedPrice(100, 0.2));
-console.log(calculateDiscountedPrice(58, 0.2));
+console.log(calculateDiscountedPrice(58, 0));
 
 // This is required for the test to function properly  
 module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
