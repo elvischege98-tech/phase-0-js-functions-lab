@@ -27,7 +27,7 @@ console.log(isPalindrome("madam"));
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
 
     const discountAmount = (originalPrice * discountPercentage);
-    return originalPrice * discountPercentage;
+    return originalPrice-discountAmount;
 }
 
 console.log(calculateDiscountedPrice(100, 0.2));
